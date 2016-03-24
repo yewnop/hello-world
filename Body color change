@@ -1,0 +1,28 @@
+<body id="bod">
+
+
+
+
+</body>
+<script>
+
+colors=new Array("red","blue","yellow","green");
+
+var i=0;
+function changes()
+{
+	
+	bod.style.background=colors[i];
+	i++;
+	if(i>=4)
+	{i=0}
+}
+
+setInterval("changes()",1000)
+
+
+
+
+
+
+</script>
